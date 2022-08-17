@@ -2,8 +2,8 @@ import requests
 
 
 def telegram_bot_sendtext(bot_message):
-    bot_token = "5523211947:AAEEgPvjydAiyn-c"
-    bot_chatID = '-6817'
+    bot_token = "xxxx"
+    bot_chatID = 'yyyy'
     send_text = 'https://api.telegram.org/bot' + bot_token \
                 + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' \
                 + bot_message
